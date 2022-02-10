@@ -8,8 +8,8 @@ const Modal = ({ name, data, setModal }) => {
     return (
         <div className="modal-bg">
             <div className="modal-card">
-                <button onClick={()=>{setModal("")}}>+</button>
-                <h1>{name}</h1>
+                <button id="close-btn" onClick={()=>{setModal("")}}></button>
+                <h1 className='headin'>{name}</h1>
                 <table>
                     <thead>
                         <tr>

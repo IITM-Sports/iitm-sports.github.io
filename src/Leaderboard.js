@@ -3,7 +3,7 @@ import './Leaderboard.css';
 const Leaderboard = ({ data }) => {
 
   return (
-    <div className="app-container">
+    <div className="appp-container">
       <table>
         <thead>
           <tr>
@@ -12,8 +12,8 @@ const Leaderboard = ({ data }) => {
           </tr>
         </thead>
         <tbody>
-          {data.map((hostel) => (
-            <tr key={data.name}>
+          {data.map((hostel,index) => (
+            <tr key={index}>
               <td>{hostel.name}</td>
               <td>{hostel.score}</td>
             </tr>
