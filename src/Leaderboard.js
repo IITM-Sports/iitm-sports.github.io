@@ -3,7 +3,7 @@ import './Leaderboard.css';
 const Leaderboard = ({ data }) => {
 
   return (
-    <div className="app-container">
+    <div className="appp-container">
       <table>
         <thead>
           <tr>
