@@ -3,7 +3,6 @@ import Home from './Home';
 import './App.css';
 import Leaderboard from './Leaderboard';
 import Schedule from './Schedule';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import React from 'react';
 function App() {
   const [route, setRoute] = React.useState("/");

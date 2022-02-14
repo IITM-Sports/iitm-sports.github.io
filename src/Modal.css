@@ -1,6 +1,6 @@
 .modal-bg{
     position:absolute;
-    top: 120px;
+    top: 0;
     width: 100%;
     height: 100vh;
     background-color: #00000022;
@@ -8,28 +8,37 @@
     justify-content: center;
 }
 .modal-card{
-    height: 70%;
+    height: max-content;
     width: 70%;
-    /* background-color: #fff; */
+    padding: 5%;
+    padding-top: 0;
+    margin-top: 10%;
+    background-color: #fff;
+    border-radius: 10px;
 }
 
 #close-btn{
     /* position: absolute; */
 	transition: transform .25s, opacity .25s;
 	cursor: pointer;
-	font-size: 2em;
+	font-size: 40px;
 	font-family: serif;
 	line-height: 1;
     border: none;
     margin-top: 40px;
     float: right;
+    background-color: #fff;
+    height: 40px;
+    width: 40px;
+    text-align: center;
 }
 
 #close-btn:hover{
     opacity: 1;
     transform: rotate(90deg);
-    background-color: red;
+    background-color: #ff000044;
     color: white;
+    border-radius: 20px;
 }
 
 #close-btn:before{

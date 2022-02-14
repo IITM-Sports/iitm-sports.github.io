@@ -1,7 +1,7 @@
 
 .app-container {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   gap: 10px;
   padding: 1rem;
   padding-left: 0;
@@ -18,7 +18,7 @@ td {
   border: 1px solid #ffffff;
   text-align: left;
   padding: 5px;
-  font-size: 20px;
+  font-size: 1.5vw;
 }
 
 th {
@@ -44,7 +44,9 @@ form * {
 }
 
 .sport-button{
-
+  width: 250px;
+  height: 150px;
+  display: inline;
   padding: 10px 25px;
   background-color:cornflowerblue;
   color: white;
